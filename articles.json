@@ -1,0 +1,51 @@
+{
+    "articles": 
+    [
+        {
+            "sys": { "id": "1" },
+            "fields": {
+                "title": "Knew Too Much?",
+                "article": "She was a young plutonium worker whose Honda Civic Hatchback ran off the road and smashed into the wall of a concrete culvert. In her trunk were manila folders full of documents, which immediately went missing.",
+                "publisherName": "Ray",
+                "publisherProfile": {"fields": { "file" : {"url": "./img/avatar-richard.png"} } }
+            }
+        },
+        {
+            "sys": { "id": "2" },
+            "fields": {
+                "title": "Evictionland",
+                "article": "Scenes from Madonna’s first major tour and an author struggling to explain the 26-year-old’s massive, surging appeal.",
+                "publisherName": "Ben",
+                "publisherProfile": {"fields": { "file" : {"url": "./img/banner.jpg"} } }
+            }
+        },
+        {
+            "sys": { "id": "3" },
+            "fields": {
+                "title": "The Cello Courier",
+                "article": "Transporting an instrument after a death in the family.",
+                "publisherName": "John",
+                "publisherProfile": {"fields": { "file" : {"url": "./img/avatar-anisha.png"} } }
+            }
+        },
+        {
+            "sys": { "id": "4" },
+            "fields": {
+                "title": "A Voice Heard",
+                "article": "A survivor of child abuse refuses to be silenced.",
+                "publisherName": "Unkown",
+                "publisherProfile": {"fields": { "file" : {"url": "./img/avatar-richard.png"} } }
+            }
+        },
+        {
+            "sys": { "id": "5" },
+            "fields": {
+                "title": "The Perfection Of The Paper Clip",
+                "article": "Invented in 1899, it hasn’t been improved upon since.",
+                "publisherName": "Solomon",
+                "publisherProfile": {"fields": { "file" : {"url": "./img/avatar-shanai.png"} } }
+            }
+        }
+        
+    ] 
+}

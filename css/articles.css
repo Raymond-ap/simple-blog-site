@@ -1,0 +1,118 @@
+/* GLOBAL STYLES */
+:root {
+  --family: "Poppins", sans-serif;
+  --family2: "Montserrat", sans-serif;
+  --family3: "Monda", sans-serif;
+  --paragraphs: #c9c0c0;
+  --paragraph1: #cbcbcb;
+  --paragraph2: #bdccca;
+  --paragraph3: #a4b9d9;
+  --paragraph4: #b4a7af;
+  --sub-parent: #171717;
+  --sub-caontainer: #474141;
+  --headings: #fff9f9;
+  --heading1: rgba(255, 255, 255, 0.15);
+  --heading2: #2a2a72;
+  --heading3: #abe9cd;
+  --weight1: 800;
+  --weight2: 700;
+  --weight3: 600;
+  --weight4: 500;
+}
+
+/* END OF GLOBAL STYLES */
+
+/*===== HEADER =====*/
+.article-header {
+  min-height: 30vh;
+}
+.quote {
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.quote h1 {
+  font-weight: 700;
+  color: rgb(192, 180, 180);
+  font-family: var(--family3);
+}
+/*===== END OF HEADER =====*/
+
+/*===== CONTENT =====*/
+.content {
+  min-height: 100vh;
+}
+
+
+.article {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.article-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background: rgb(49, 48, 48);
+  box-shadow: 1px 2px 2px 2px rgba(136, 131, 131, 0.356);
+  margin: 1rem;
+}
+.publisher-profile {
+  width: 55px !important;
+  background-position: center;
+  height: 60px;
+  border-radius: 50% !important;
+}
+.top-side {
+  display: inline-flex;
+}
+.top-side > div {
+  padding-left: 0.5rem;
+  color: #fff;
+  text-transform: capitalize;
+}
+.top-side > div h3 {
+    line-height: 2;
+    color: var(--paragraph1);
+    font-size: 1.3rem;
+}
+.top-side > div h3 span {
+    color: #fff;
+    text-transform: lowercase;
+    color: var(--heading3);
+}
+.top-side > div p {
+    font-weight: var(--weight3);
+    color: var(--paragraph3);
+}
+.headline-div {
+    color: #fff;
+    padding: 1rem 0;
+}
+.headline-div h1 {
+    font-size: 2.5rem;
+    font-weight: var(--weight1);
+}
+.article-description p {
+    color: var(--paragraphs);
+    font-size: 1.2rem;
+    font-family: var(--family1);
+    line-height: 2;
+    font-weight: var(--weight3);
+}
+.share-div {
+    float: right;
+}
+.share-div span {
+    color: var(--heading3);
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+/*===== END OF CONTENT =====*/
+
+.custom {
+    background: rgb(27, 27, 27) !important;
+}
